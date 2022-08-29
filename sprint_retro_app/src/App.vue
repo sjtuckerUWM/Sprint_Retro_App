@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <RetroApp/>
+  <UserInput/>
 </template>
 
 <script>
-import RetroApp from './components/RetroApp.vue'
+import UserInput from './components/UserInput.vue'
 
 export default {
   name: 'App',
   components: {
-    RetroApp
+    UserInput
   }
 }
 </script>
